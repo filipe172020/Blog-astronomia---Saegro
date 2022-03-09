@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2? família=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Roboto&display=swap');
+       
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;    
+}
+
+.cabecalho {
+    display:flex; 
+    width: 100%;
+    background-color: #1c132e;
+    
+}
+
+.logo {
+    
+    text-align: center;
+    height: 150px;
+    padding: 10px;
+}
+
+.cabecalho-menu {
+    
+    background-color: #1c132e;
+    padding: 40px;
+}
+
+.descricao {
+display: flex;
+float: left;
+font-family: 'Anton', sans-serif;
+color: #c8b8eb;
+font-size: 30px;
+padding: 20px;
+
+
+}
+
+.botaosobreimagem{
+    position: relative;
+    text-align: center;
+}
+
+.botaosobreimagem button {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 105px;
+    height: 50px;
+    background-color: #674aa7;
+    color: white;
+    border: none;
+    font-family: 'Anton', sans-serif;
+    border-radius: 10px;
+
+}
+
+form {
+    display: flex;
+    float: right;
+    padding: 20px;
+}
+
+form input {
+
+   font-size: 15px; 
+   text-align: center;
+   padding: 10px;
+   border-radius: 10px;
+   background-color: #674aa7;
+   border: none;
+
+   
+}
+
+::placeholder{
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+body {
+font-size: 100%;
+overflow-x: hidden;
+}
+
+.imagem-principal{
+    display:flex;
+    width: 100%;
+
+}
+
+.Artigo1 {
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    text-align: center;
+}
+
+.Artigo1 p {
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.artigo1-imagem1 {
+    display:flex;
+    margin: auto;
+    padding-bottom: 20px;
+    max-width: 700px;
+    width: 100%;
+    
+}
+
+figcaption {
+    opacity: 0.6;
+}
+
+h1 {
+    color:#674aa7;
+    padding: 20px;
+}
+
+h2 {
+    color:#1c132e;
+    padding-top: 20px;
+}
+
+p {
+    color:#1c132e;
+}
+
+footer {
+    background-color: #674aa7;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 13px;
+}
+
